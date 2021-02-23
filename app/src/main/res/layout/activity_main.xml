@@ -5,6 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-hh
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        />
+
+    <TextView
+        android:id="@+id/text_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display detected text from image"
+        android:layout_below="@+id/image_view"
+        android:textSize="26dp"
+        android:maxLines="5"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/capture_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
 
 </RelativeLayout>
