@@ -26,6 +26,16 @@
         android:id="@+id/capture_display"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Capture Image"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/detect_text_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:text="Detect Text from the Image"
+        android:textAllCaps="false"
+        />
 
 </RelativeLayout>
