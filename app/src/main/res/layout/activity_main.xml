@@ -22,20 +22,24 @@
         android:maxLines="5"
         android:layout_margin="10dp"
         />
+
     <Button
-        android:id="@+id/capture_display"
+        android:id="@+id/capture_image_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Capture Image"
         android:textAllCaps="false"
+
         />
     <Button
-        android:id="@+id/detect_text_display"
+        android:id="@+id/detect_text_image_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:text="Detect Text from the Image"
         android:textAllCaps="false"
+        android:textcolor="@android:color/white"
+
         />
 
 </RelativeLayout>
